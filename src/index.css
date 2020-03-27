@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+/*fonts*/
+@font-face {
+  font-family: "ST Ryde";
+  src: url("./assets/fonts/StRyde-Regular.woff2") format("woff2"),
+    url("./assets/fonts/StRyde-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ST Ryde Medium";
+  src: url("./assets/fonts/StRyde-Medium.woff2") format("woff2"),
+    url("./assets/fonts/StRyde-Medium.woff") format("woff");
+}
+
+
+body {
+  margin: 0;
+  font-family: 'ST Ryde', 'Arial', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*structure*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column!important;
+}
+.d-flex {
+  display: flex!important;
+}
+.align-items-center {
+  align-items: center!important;
+}
+.justify-content-center {
+  justify-content: center!important;
+}
+.w-100 {
+  width: 100%!important;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.p-0 {
+  padding: 0!important;
+}
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex: 0 0 50%;
+  max-width: 100%;
+}
+
+.is-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+/*home*/
+.wrapper {
+  height: 100vh;
+  background: #FFFFFF;
+  /* height: calc(100% - 60px); */
+}
+
+/*dark mode*/
+.change-colour .content h1 {
+  color: #009fdf;
+}
+
+.change-colour .wrapper {
+  background: #101b2d;
+}
+.change-colour .navbar-burger {
+  background: #003c71;
+  color: #FFFFFF;
+}
+.change-colour .navbar-brand {
+  background: #0e2b45;
+}
+.change-colour .sidebar-menu {
+  background: #0e2b45;
+  color: #FFFFFF;
+}
+.change-colour .sidebar-menu .account-cta .username {
+  font-family: "StRydeLight", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffcd00;
+  letter-spacing: -1px;
+  line-height: 26px;
+}
+
+.change-colour.theme-button .button.is-link{
+  background-color: #003c71;
+  color: #FFFFFF;
+  transition: all 0.25s ease;
+}
+
+.change-colour.theme-button .button.is-link:before{
+  content: '';
+  background-image: url(./assets/images/Daytime.svg);
+  background-size: contain;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  transition: all 0.25s ease;
+}
+
+@media (min-width: 992px) { 
+  .col {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Nightime</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Light-UI-Menu-Filter" transform="translate(-1156.000000, -28.000000)" stroke="#0076B7">
+            <g id="Theme-Button" transform="translate(1138.000000, 17.000000)">
+                <g id="Nightime" transform="translate(19.000000, 12.000000)">
+                    <path d="M8.2647826,4.24216218e-13 C6.00115238,1.24207248 4.46665268,3.64791575 4.46665268,6.41216063 C4.46665268,10.4488474 7.7390339,13.7212286 11.7757207,13.7212286 C15.3265092,13.7212286 18.2859179,11.1892304 18.9469216,7.832259 C19.0375646,8.36047453 19.0847887,8.90352519 19.0847887,9.45760564 C19.0847887,14.7277245 14.8125132,19 9.54239436,19 C4.27227548,19 0,14.7277245 0,9.45760564 C0,4.62070639 3.59875687,0.624341842 8.2647826,3.53397867e-13 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
